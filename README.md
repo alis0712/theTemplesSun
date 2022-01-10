@@ -34,9 +34,5 @@ Credit:
 
 This game would not have been built without the help of the following Udemy course: 
 
-[I'm an inline-style link](https://www.google.com)
-
-
-[Unreal Engine C++ The Ultimate Game Developer Course] (https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/learn/lecture/14210384#overview)
-
+[Unreal Engine C++ The Ultimate Game Developer Course](https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/learn/lecture/14210384#overview)
 
