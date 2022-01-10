@@ -28,6 +28,7 @@ The Temple's Sun is a simple 3D hack and slash game built in Unreal Engine 5, an
 
 A short video demonstrates the current progress of the game: 
 
+https://user-images.githubusercontent.com/62857780/148819366-7282fb74-d38a-4040-ab1d-0016c271c05e.mp4
 
 
 Credit: 
