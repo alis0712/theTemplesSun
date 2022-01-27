@@ -258,9 +258,9 @@ public:
 
 	void SwitchLevel(FName LevelName);
 
-	UFUNCTION(Blueprintable)
+	UFUNCTION(BlueprintCallable)
 	void SaveGame();
 
-	UFUNCTION(Blueprintable)
-	void LoadGame();
+	UFUNCTION(BlueprintCallable)
+	void LoadGame(bool SetPosition);
 };
