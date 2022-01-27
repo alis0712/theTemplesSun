@@ -12,7 +12,7 @@ The Temple's Sun is a simple 3D hack and slash game built in Unreal Engine 5, an
 
 * HUD elements including Health and Stamina Bars as well as Icons
 
-* How to create menus, including a Pause menu
+* Created menus, including a Pause menu
 
 * Saving and Loading game data even after turning off the computer or exiting the game
 
