@@ -18,6 +18,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Enemy.h"
 #include "MainPlayerController.h"
+#include "MySaveGame.h"
 
 
 // Sets default values
@@ -603,4 +604,14 @@ void AMain::SwitchLevel(FName LevelName)
 			UGameplayStatics::OpenLevel(World, LevelName);
 		}
 	}
+}
+
+void AMain::SaveGame()
+{
+	UGameplayStatics::CreateSaveGameObject(UMySaveGame::StaticClass());
+}
+
+void AMain::LoadGame()
+{
+
 }
