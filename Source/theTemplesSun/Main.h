@@ -191,9 +191,18 @@ public:
 	// Called side to side input
 	void MoveRight(float Value);
 
+	// Called for yaw rotation input
+	void Turn(float Value);
+
+	// Called pitch rotation input
+	void LookUp(float Value);
+
 	bool bMovingForward;
 	
 	bool bMovingRight;
+
+	bool CanMove(float Value);
+
 
 	// Called via input to look up/down at a given rate
 	// @param rate this is a normalized rate, i.e. 1.0 means 100% of desired look up/down rate
