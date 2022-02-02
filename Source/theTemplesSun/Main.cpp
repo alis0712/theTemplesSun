@@ -291,8 +291,8 @@ bool AMain::CanMove(float Value)
 {
 	if (MainPlayerController)
 	{
-		return (Controller != nullptr)
-			&& (Value != 0.0f)
+		return //(Controller != nullptr)
+			   (Value != 0.0f)
 			&& (!bAttacking)
 			&& (MovementStatus != EMovementStatus::EMS_Dead)
 			&& !MainPlayerController->bPauseMenuVisible;
