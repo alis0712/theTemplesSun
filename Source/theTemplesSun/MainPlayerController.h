@@ -39,8 +39,12 @@ public:
 
 	bool bPauseMenuVisible;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "HUD")
 	void DisplayPauseMenu();
+	
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "HUD")
 	void RemovePauseMenu();
+
 
 	void TogglePauseMenu();
 
