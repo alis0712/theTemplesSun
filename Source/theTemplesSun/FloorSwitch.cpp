@@ -5,6 +5,8 @@
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "TimerManager.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 AFloorSwitch::AFloorSwitch()
@@ -61,6 +63,7 @@ void AFloorSwitch::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAct
 	}
 	RaiseDoor();
 	LowerFloorSwitch();
+	UGameplayStatics::PlaySound2D(this, DoorOpen);
 }
 
 void AFloorSwitch::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)

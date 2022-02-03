@@ -41,6 +41,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Floor Switch")
 		float SwitchTime;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Floor Switch")
+		class USoundBase* DoorOpen;
+
 	bool bCharacterOnSwitch;
 
 	void CloseDoor();
